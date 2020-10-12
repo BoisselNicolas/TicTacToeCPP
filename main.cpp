@@ -11,6 +11,7 @@ int choice ;
 void drawTheBoard();
 bool weHaveAWinner();
 
+//      Loop of the game
 
 int main(){
 
@@ -18,25 +19,16 @@ int main(){
     {
         cout << "           Au tour de Player " << player << endl;
         cout << endl;
-
         drawTheBoard();
-
         cin >> choice ;
-
         choice = choice - 1 ;
         number[choice] = symbole;
-
-        
-
         weHaveAWinner();
-
     }
-    
-
-    
     return 0;
 }
 
+//        Function with the rules for the win 
 
 bool weHaveAWinner(){
 
@@ -74,7 +66,7 @@ bool weHaveAWinner(){
     return result;
 }
 
-// Function to draw the board 
+//          Function to draw the board 
 
 void drawTheBoard(){
 
