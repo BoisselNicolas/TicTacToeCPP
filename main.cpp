@@ -22,8 +22,50 @@ int main(){
         drawTheBoard();
         cin >> choice ;
         choice = choice - 1 ;
-        number[choice] = symbole;
-        weHaveAWinner();
+        
+
+        if(number[choice] == '1'){
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else if (number[choice] == '2')
+        {
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else if (number[choice] == '3')
+        {
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else if (number[choice] == '4')
+        {
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else if (number[choice] == '5')
+        {
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else if (number[choice] == '6')
+        {
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else if (number[choice] == '7')
+        {
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else if (number[choice] == '8')
+        {
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else if (number[choice] == '9')
+        {
+            number[choice] = symbole;
+            weHaveAWinner();
+        }else{
+            cout << " Mouvement interdit " << endl ;
+        }
+        
+        
+
+        
     }
     return 0;
 }
